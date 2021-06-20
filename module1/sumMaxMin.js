@@ -20,7 +20,7 @@ function minMax(arr) {
     	}
 	}
 }
-	
+	     
 console.log(sum(arr));
 minMax(arr);
 console.log(min);
