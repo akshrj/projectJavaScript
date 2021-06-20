@@ -17,7 +17,6 @@ function isPrime(element){
 }
 
 let primeCount = 0;
-
 function allPrime(arr) {
     for(let i = 0; i < arr.length; i++) {
         if(isPrime(arr[i])) {
