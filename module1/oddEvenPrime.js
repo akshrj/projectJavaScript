@@ -6,10 +6,8 @@ let num = function(arr) {
 	for(let i = 0; i < arr.length; i++) {
 		if ((arr[i] % 2) != 1) {
 			even.push(arr[i]);
-			console.log(even);
 		} else {
 			odd.push(arr[i]);
-			console.log(odd);
 		}
 	}
 };
