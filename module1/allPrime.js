@@ -1,6 +1,6 @@
 let arr =  [10, 1, 42, 36, 4, 75, 6, 97, 81, 19, 10];
 
-function isPrime(element){
+function isPrime(element) {
     let flag = 0;
 
     for(let i = 2; i < element - 1; i++) {
