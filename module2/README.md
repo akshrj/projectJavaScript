@@ -50,3 +50,36 @@ console.log(keys);
 ```
 
 >5. JSON offers support for objects but not for maps
+
+# Arrow Functions vs Regular Functions
+
+> An arrow function expression is a compact alternative to a regular function expression, but is limited and can't be used in all situations.
+
+Differences & Limitations:
+
+    Does not have its own bindings to this or super, and should not be used as methods.
+    Does not have arguments, or new.target keywords.
+    Not suitable for call, apply and bind methods, which generally rely on establishing a scope.
+    Can not be used as constructors.
+    Can not use yield, within its body.
+
+> Comparing regular functions to arrow functions
+```
+// Regular Function
+function (a){
+  return a + 100;
+}
+
+// Arrow Function Break Down
+
+// 1. Remove the word "function" and place arrow between the argument and opening body bracket
+(a) => {
+  return a + 100;
+}
+
+// 2. Remove the body brackets and word "return" -- the return is implied.
+(a) => a + 100;
+
+// 3. Remove the argument parentheses
+a => a + 100;
+```
